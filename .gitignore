@@ -1,0 +1,27 @@
+# Dependencies
+/vendor/
+
+# Configuration (contains sensitive data)
+/config/config.php
+
+# Sessions and Data
+/account_sessions/
+/sessions/
+/data/
+/jobs/
+/logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Composer
+composer.lock
+
